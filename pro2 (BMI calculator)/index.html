@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+    <a href="/" aria-current="page">Home</a>
+    <a target="_blank" href="">project git link</a>
+    </nav>
+    <div class="myclass">
+        <h1>BMI calculator</h1>
+        <h2> Let's see how chubby you are </h2>
+        <form>
+            <p><label>height in cm</label><input type="text" id="height"/></p>
+            <p><label>weight in kg</label><input type="text" id="weight"/></p>
+            <button>calculate</button>
+            <div id="results"></div>
+            <div id="weight-guide">
+                <p>Less then 18.6 =>Underweight</p>
+                <p>Betweeen 18.6 and 24.9 =>Normal</p>
+                <p>More then 24.9 =>Overweight</p>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
